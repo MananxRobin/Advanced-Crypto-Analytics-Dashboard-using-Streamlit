@@ -97,7 +97,6 @@ def portfolio_manager(coin):
                           f"{st.session_state.portfolio[coin]:.4f} {CRYPTO_LIST[coin]}",
                           f"${current_value:,.2f}")
 
-
 def main():
     """
         Main function to initialize and run the Streamlit dashboard for advanced
